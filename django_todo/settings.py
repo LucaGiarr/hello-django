@@ -13,9 +13,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import os
 import dj_database_url
-import env
-# if os.path.isfile('env.py'):
-#     import env
+if os.path.isfile('env.py'):
+    import env
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get('SECRET_KEY')
