@@ -30,7 +30,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-lucagiarr-hello-jango-848tcenze7.us2.codeanyapp.com']
+# ALLOWED_HOSTS = ['8000-lucagiarr-hello-jango-848tcenze7.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['lg-django-todo-app.herokuapp.com']
 
 
 # Application definition
