@@ -33,8 +33,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DEBUG = development
 
 if development:
-    ALLOWED_HOSTS = [
-        'localhost']
+    ALLOWED_HOSTS = ['*']
 else:
     ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
